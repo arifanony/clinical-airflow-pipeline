@@ -1,0 +1,1 @@
+{"sql_input_table":"pre_lingua_input_cue","sql_output_table":"cue_lingua_op_raw","batch_size":2,"pg_conn_id":"postgres_default"}
