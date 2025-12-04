@@ -32,6 +32,9 @@ The goal was to design a stable, scalable workflow capable of batching, processi
 
 ---
 
+<img width="1186" height="424" alt="image" src="https://github.com/user-attachments/assets/62142ed2-c293-41da-bbc4-8fdec988482a" />
+
+
 ## 🏆 Technical Achievements of Phase 1
 
 - Designed a clean **multi-DAG architecture**.
@@ -91,4 +94,5 @@ Phase 1 successfully delivered a production-ready ETL pipeline featuring:
 - Fully Dockerized Airflow environment  
 
 This phase creates a strong foundation for Phase 2, where machine learning and Transformer-based NLP models will be integrated into the pipeline.
+
 
