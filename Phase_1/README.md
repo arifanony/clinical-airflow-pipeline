@@ -22,7 +22,8 @@ The goal was to design a stable, scalable workflow capable of batching, processi
 - Validates input parameters.
 - Fetches rows from PostgreSQL safely.
 - Applies initial NLP logic (pain detection).
-- Handles negations (“no pain”, “denies pain”, “pain free”).
+- Applies simple keyword-based pain detection (only checks for the word "pain").
+Negation handling is NOT included in Phase 1.
 - Writes results to `clinical_notes_output`.
 - Logs each run in `pipeline_runs` with:
   - status  
@@ -90,12 +91,14 @@ Phase 1 successfully delivered a production-ready ETL pipeline featuring:
 
 - Dynamic batching  
 - Multi-DAG orchestration  
-- NLP-ready processing  
+- Basic NLP logic using simple keyword detection (no negation handling yet).
+Negation handling is introduced in Phase 2. 
 - Audit logging  
 - Safe Postgres transactions  
 - Fully Dockerized Airflow environment  
 
 This phase creates a strong foundation for Phase 2, where machine learning and Transformer-based NLP models will be integrated into the pipeline.
+
 
 
 
