@@ -111,6 +111,9 @@ When modifying the operator structure, some tasks tried to pull XCom before data
 Fix:  
 Revalidated XCom flow, ensured each step pushes/pulls correctly.
 
+<img width="886" height="276" alt="image" src="https://github.com/user-attachments/assets/07e8026a-7a12-410a-ae2d-0e9e0f4bd301" />
+
+
 ---
 
 ### 5. Handling large notes and summarization consistency
@@ -140,6 +143,10 @@ unique_id | flag | symptoms
 5 | 0 | shortness of breath  
 
 ---
+<img width="1219" height="541" alt="image" src="https://github.com/user-attachments/assets/6c7a7f85-8daa-43f1-a73c-d0897e1a41cd" />
+
+
+<img width="1739" height="585" alt="image" src="https://github.com/user-attachments/assets/a1f081f7-8f74-441d-a76f-a900ecdf2b90" />
 
 ## Phase 2 Outcome
 
@@ -163,3 +170,4 @@ Phase 3 will include:
 ---
 
 ## Phase 2 Completed
+
